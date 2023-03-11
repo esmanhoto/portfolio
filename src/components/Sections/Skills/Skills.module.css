@@ -1,0 +1,136 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 50%;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #87888b;
+}
+
+.selections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.option {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  padding-left: 26px;
+}
+
+.option input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.new-checkbox {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  height: 12px;
+  width: 12px;
+  background-color: #2b2b2b;
+  border: 1px solid #cecfd2;
+}
+
+/* .option input:checked ~ .new-checkbox {
+  background-color: #59be99;
+} */
+
+.new-checkbox:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.option input:checked ~ .new-checkbox:after {
+  display: block;
+}
+
+/* .new-checkbox:active {
+  background-color: #59be99;
+}
+
+.new-checkbox:checked {
+  background-color: #59be99;
+} */
+
+.option input:checked ~ .new-checkbox.green-background {
+  background-color: #59be99;
+}
+
+.new-checkbox.green-background:active {
+  background-color: #59be99;
+}
+
+.new-checkbox.green-background:checked {
+  background-color: #59be99;
+}
+
+.option input:checked ~ .new-checkbox.blue-background {
+  background-color: #5450f9;
+}
+
+.new-checkbox.blue-background:active {
+  background-color: #5450f9;
+}
+
+.new-checkbox.blue-background:checked {
+  background-color: #5450f9;
+}
+
+.option input:checked ~ .new-checkbox.red-background {
+  background-color: #f61d1d;
+}
+
+.new-checkbox.red-background:active {
+  background-color: #f61d1d;
+}
+
+.new-checkbox.red-background:checked {
+  background-color: #f61d1d;
+}
+
+.down-arrow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 120px 0;
+}

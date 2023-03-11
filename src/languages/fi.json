@@ -1,0 +1,96 @@
+{
+  "navbar": {
+    "home": "Koti",
+    "skills": "Taidot",
+    "projects": "Projektit",
+    "contact": "Yhteystiedot"
+  },
+  "hero": {
+    "header": {
+      "greeting": "Hei,",
+      "name": "Olen ",
+      "title": "Front End -kehittäjä"
+    },
+    "subheader": {
+      "partOne": "Sijaitsee tällä hetkellä Suomessa. Rakastan ",
+      "highlighted": "interaktiivisten",
+      "partTwo": ", digitaalisten kokemusten rakentamista verkossa."
+    },
+    "additional": {
+      "partOne": "Jos haluat tarkistaa taitojani, projektejani ja saada selville, kuinka paljon me ",
+      "highlighted": "vastaamme",
+      "partTwo": ", jatka rullaamista seuraavaan kysymykseen, muuten voit varata tapaamisen heti!"
+    }
+  },
+  "button": {
+    "scheduleMeeting": "Aikataulutaan tapaaminen!",
+    "schedule": "Ajoittaa"
+  },
+  "skills": {
+    "title": {
+      "highlighted": "Taidot",
+      "remaining": " ja työkalut"
+    },
+    "description": {
+      "partOne": "Tarkemman ",
+      "highlighted": "analyysin saamiseksi",
+      "partTwo": ", ole hyvä ja valitse listaltani, mitkä pinot ja taidot ovat halutuimpia työpaikkaasi varten."
+    }
+  },
+  "tools": "Työkaluja",
+  "project0": {
+    "title": {
+      "main": "Kuka ",
+      "highlighted": "olen"
+    },
+    "description": {
+      "partOne": "Valmistunut matematiikasta, tekniikan maisteri, ohjelmistokehittäjä 3 vuotta. Sitä ennen ",
+      "highlighted": "joukko",
+      "partTwo": " mielenkiintoisia kokemuksia: lennonjohtaja 5 vuotta, oikeuslääketieteellinen asiantuntija, yrittäjä, logiikan, matematiikan ja englannin opettaja yli 10 vuotta."
+    },
+    "additional": "Voit kurkistaa muutamaan kehittämääni projektiin tai mennä eteenpäin ja varata jo puhelun!"
+  },
+  "project1": {
+    "title": "Time Capsule",
+    "description": "Itsepalvelutoteemin franchising, jolla tallennetaan tulevaisuudessa toimitettavia viestejä, kuten aikakapseli. Tapahtuman (esim. häät, valmistujaiset, vuosipäivät) aikana vieraat käyttävät sovellusta kosketusnäytöllisen toteemikoneen kautta, nauhoittavat videoviestejä ja sitten toteemi alkaa synkronoida palvelimen kanssa (internet-yhteyden kautta), joka lataa videot. Palvelinpuolella sovellus ajoittaa videot lähetettäväksi tulevaisuudessa."
+  },
+  "project2": {
+    "title": "i25Kia jälleenmyyjät",
+    "description": {
+      "partOne": "Alusta, jonka jälleenmyyjät voivat ostaa ajoneuvojensa esittelyyn ja myyntiin. Parhaillaan kehitetään kahdelle jälleenmyyjälle. Se sisältää koko ajoneuvon ostoprosessin mallin ja lisävarusteiden valinnasta maksutapoihin. Vankka projekti, joka on yhdistetty useisiin ulkoisiin sovellusliittymiin ja joka käyttää ",
+      "highlighted": "mikropalveluita",
+      "partTwo": " eri jälleenmyyjien hallintaan samalla koodilla."
+    }
+  },
+  "project3": {
+    "description": {
+      "partOne": "Useita ",
+      "highlightedOne": "Python",
+      "partTwo": "-kirjoituksia kehitettiin automatisoimaan digitaalisten tiedostojen verkkokaupan koko prosessi. ",
+      "highlightedTwo": "API",
+      "partThree": "-yhteyksien kautta se tunnistaa, milloin osto on tehty, luo salattuja ja mukautettuja vesileimatiedostoja, lataa ne pilvipalveluntarjoajalle ja lähettää lopuksi ostajalle sähköpostin, jossa on linkit näihin tiedostoihin. Projektin ensimmäinen tavoite oli lisätä ",
+      "highlightedThree": "tietoturvatasoja",
+      "partFour": " digitaalista piratismia vastaan, ja heti kun tämä saavutettiin, se laajennettiin ostojen hallintaan alusta loppuun."
+    }
+  },
+  "contact": {
+    "title": {
+      "start": "Olemmeko ",
+      "highlighted": "ottelu"
+    },
+    "content": {
+      "partOne": "Vastaustesi mukaan olemme  ",
+      "partTwo": "-prosenttisesti."
+    },
+    "adjectives": {
+      "best": "loistava",
+      "good": "hieno",
+      "ok": "hyvä",
+      "bad": "ei niin hyvä"
+    },
+    "subtitle": {
+      "main": "Otetaan yhteyttä!",
+      "description": "Voit varata tapaamisen Calendlyn kautta tai tavoittaa minut sähköpostitse tai minkä tahansa sosiaalisen median kautta."
+    }
+  }
+}

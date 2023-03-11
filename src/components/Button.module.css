@@ -1,0 +1,14 @@
+.button-schedule {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  padding: 30px 46px;
+  /* border: 1px solid #59be99; */
+  border-radius: 6px;
+  background-color: inherit;
+  width: 365px;
+  white-space: nowrap;
+  cursor: pointer;
+}

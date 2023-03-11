@@ -1,0 +1,53 @@
+/* .container {
+  display: flex;
+  justify-content: end;
+} */
+
+.list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px;
+  list-style: none;
+}
+
+.item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #cecfd2;
+  cursor: pointer;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  /* color: #59be99; */
+}
+
+.flags-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.flag {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.select-idiom {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #cecfd2;
+  margin-bottom: 10px;
+}

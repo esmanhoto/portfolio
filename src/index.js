@@ -3,8 +3,27 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import i18n from 'i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+import XHR from 'i18next-xhr-backend';
+import './global.css';
+
+i18n
+  .use(XHR)
+  .use(LanguageDetector)
+  .init({
+    fallbackLng: 'en',
+    debug: true,
+    interpolation: {
+      escapeValue: false,
+    },
+    backend: {
+      loadPath: '/languages/{{lng}}/{{ns}}.json',
+    },
+  });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <App />

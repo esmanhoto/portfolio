@@ -1,0 +1,96 @@
+{
+  "navbar": {
+    "home": "Início",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "header": {
+      "greeting": "Olá,",
+      "name": "Eu sou o ",
+      "title": "Desenvolvedor Front End"
+    },
+    "subheader": {
+      "partOne": "Atualmente localizado na Finlândia. Adoro construir experiências digitais ",
+      "highlighted": "interativas",
+      "partTwo": " na web."
+    },
+    "additional": {
+      "partOne": "Se você quiser verificar minhas habilidades, projetos e descobrir o quanto ",
+      "highlighted": "combinamos",
+      "partTwo": ", continue para a próxima seção. Caso contrário, podemos agendar uma reunião imediatamente!"
+    }
+  },
+  "button": {
+    "scheduleMeeting": "Agendar uma reunião!",
+    "schedule": "Agendar"
+  },
+  "skills": {
+    "title": {
+      "highlighted": "Habilidades",
+      "remaining": " e ferramentas"
+    },
+    "description": {
+      "partOne": "Para uma ",
+      "highlighted": "análise mais precisa",
+      "partTwo": ", selecione da minha lista quais stacks e habilidades são mais desejados para sua vaga."
+    }
+  },
+  "tools": "Ferramentas",
+  "project0": {
+    "title": {
+      "main": "Quem sou ",
+      "highlighted": "Eu"
+    },
+    "description": {
+      "partOne": "Graduado em Matemática, Mestre em Engenharia, Desenvolvedor de Software por 3 anos. Antes disso, uma ",
+      "highlighted": "série",
+      "partTwo": " de experiências interessantes: controlador de tráfego aéreo por 5 anos, perito criminal, empresário, professor de Raciocínio Lógico, Matemática e Inglês por mais de 10 anos."
+    },
+    "additional": "Você pode dar uma olhada em alguns projetos que desenvolvi, ou vá em frente e já agende uma visita!"
+  },
+  "project1": {
+    "title": "Cápsula do Tempo",
+    "description": "Uma franquia de totem de autoatendimento para gravação de mensagens a serem entregues no futuro, como uma cápsula do tempo. Durante um evento (ou seja, casamento, formatura, aniversário), os convidados acessam o aplicativo por meio de uma máquina de totem com tela sensível ao toque, gravam mensagens de vídeo e, em seguida, o totem começa a sincronizar com o servidor (por meio de uma conexão com a Internet) que carrega os vídeos. Do lado do servidor, o aplicativo agenda os vídeos a serem enviados no futuro."
+  },
+  "project2": {
+    "title": "Concessionárias i25Kia",
+    "description": {
+      "partOne": "Uma plataforma que pode ser adquirida pelas concessionárias para mostrar e vender seus veículos. Atualmente sendo desenvolvido para duas concessionárias. Abrange todo o processo de compra de um veículo, desde a escolha do modelo e acessórios, até as formas de pagamento. Um projeto robusto conectado a várias APIs externas, usando ",
+      "highlighted": "microsserviços",
+      "partTwo": " para gerenciar as diferentes concessionárias sob o mesmo código."
+    }
+  },
+  "project3": {
+    "description": {
+      "partOne": "Vários scripts em ",
+      "highlightedOne": "Python",
+      "partTwo": "foram desenvolvidos para automatizar todo o processo de uma loja online de arquivos digitais. Por meio de conexões de ",
+      "highlightedTwo": "API",
+      "partThree": ", ele identifica quando uma compra foi feita, gera arquivos criptografados e personalizados com marca d'água, carrega-os em um provedor de nuvem e, por último, envia ao comprador um e-mail com os links desses arquivos. O primeiro objetivo do projeto era aumentar as camadas de ",
+      "highlightedThree": "segurança",
+      "partFour": " contra a pirataria digital e, assim que isso foi alcançado, foi expandido para o gerenciamento das compras do início ao fim."
+    }
+  },
+  "contact": {
+    "title": {
+      "start": "Somos um ",
+      "highlighted": "match"
+    },
+    "content": {
+      "partOne": "De acordo com suas respostas, temos uma correspondência de ",
+      "partTwo": "%."
+    },
+    "adjectives": {
+      "best": "estonteantes",
+      "good": "ótimos",
+      "ok": "bons",
+      "bad": "não-tão-legais"
+    },
+    "subtitle": {
+      "main": "Vamos nos conectar!",
+      "description": "Você pode agendar uma reunião via Calendly, ou entrar em contato comigo por e-mail ou através de qualquer mídia social"
+    }
+  }
+}

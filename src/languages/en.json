@@ -1,0 +1,99 @@
+{
+  "navbar.en": "English",
+  "navbar.pt": "Português",
+  "navbar.fi": "Suomi",
+  "navbar": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "header": {
+      "greeting": "Hello,",
+      "name": "I am ",
+      "title": "Front End Developer"
+    },
+    "subheader": {
+      "partOne": "Currently located in Finland. I love building ",
+      "highlighted": "interactive",
+      "partTwo": ", digitalexperiences on the web."
+    },
+    "additional": {
+      "partOne": "If you want to check my skills, projects, and find out how much we ",
+      "highlighted": "match",
+      "partTwo": ", continue scrolling to the next question, otherwise, you can schedule a meeting right away!"
+    }
+  },
+  "button": {
+    "scheduleMeeting": "Let's schedule a meeting!",
+    "schedule": "Schedule"
+  },
+  "skills": {
+    "title": {
+      "highlighted": "Skills",
+      "remaining": " and tools"
+    },
+    "description": {
+      "partOne": "For a more ",
+      "highlighted": "accurate analysis",
+      "partTwo": ", please select from my list which stacks and skills are most desired for your job opening."
+    }
+  },
+  "tools": "Tools",
+  "project0": {
+    "title": {
+      "main": "Who am ",
+      "highlighted": "I"
+    },
+    "description": {
+      "partOne": "Graduated in Mathematics, Master's degree in Engineering, Software Developer for 3 years. Prior to that, an ",
+      "highlighted": "array",
+      "partTwo": " of interesting experiences: air traffic controller for 5 years, forensic specialist, entrepreneur, teacher of Logics, Maths and English for over 10 years."
+    },
+    "additional": "You can take a peek at a few projects I have developed, or go ahead and already schedule a call!"
+  },
+  "project1": {
+    "title": "Time Capsule",
+    "description": "A franchise of self-service totem for recording messages to be delivered in the future, like a time capsule. During an event (ie. wedding, graduation, anniversary) guests access the application through a touchscreen totem machine, record video messages, and then the totem starts to synchronize with the server (through an internet connection) that uploads the videos. On the server-side, the application schedule the videos to be sent in the future."
+  },
+  "project2": {
+    "title": "i25Kia Dealerships",
+    "description": {
+      "partOne": "A platform that can be purchased by dealerships to showcase and sell their vehicles. Currently being developed for two dealerships. It comprises the whole process of buying a vehicle, from choosing the model and accessories, to methods of payment. A robust project connected to multiple external APIs, using ",
+      "highlighted": "microservices",
+      "partTwo": " to manage the different dealerships under the same code."
+    }
+  },
+  "project3": {
+    "description": {
+      "partOne": "Multiple ",
+      "highlightedOne": "Python",
+      "partTwo": " scrips were developed in order to automatize the whole process for an online shop of digital files. Through ",
+      "highlightedTwo": "API",
+      "partThree": " connections it identifies when a purchase was made, generates encrypted and custom watermarked files, uploads them to a cloud provider, and lastly sends the buyer an email with the links for these files. The first goal of the project was to increase layers of ",
+      "highlightedThree": "security",
+      "partFour": " against digital piracy, and as soon as this was met, it was expanded to managing the purchases from start to end."
+    }
+  },
+  "contact": {
+    "title": {
+      "start": "Are we a ",
+      "highlighted": "match"
+    },
+    "content": {
+      "partOne": "According to your answers, we are a ",
+      "partTwo": "% match."
+    },
+    "adjectives": {
+      "best": "whopping",
+      "good": "solid",
+      "ok": "good",
+      "bad": "not-that-good"
+    },
+    "subtitle": {
+      "main": "Let's get in touch!",
+      "description": "You can schedule a meeting via Calendly, or reach me by e-mail or through any social media."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.green {
+  color: #59be99;
+}
+
+.blue {
+  color: #5450f9;
+}
+
+.red {
+  /* color: #f61d1d; */
+  color: rgba(246, 29, 29, 0.8);
+}
+
+.green-border {
+  border: 1px solid #59be99;
+}
+
+.blue-border {
+  border: 1px solid #5450f9;
+}
+
+.red-border {
+  border: 1px solid #f61d1d;
+}
+
+.green-background {
+  background-color: #59be99;
+}
+
+.blue-background {
+  background-color: #5450f9;
+}
+
+.red-background {
+  background-color: #f61d1d;
+}
