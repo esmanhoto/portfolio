@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9c9c5476.css",
-    "main.js": "/portfolio/static/js/main.c7b00785.js",
+    "main.css": "/portfolio/static/css/main.6e2f76f1.css",
+    "main.js": "/portfolio/static/js/main.426e2104.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/edu.jpg": "/portfolio/static/media/edu.352393aaad866dc87495.jpg",
     "static/media/i25kia.png": "/portfolio/static/media/i25kia.3a39412bf9ab479e6b11.png",
@@ -18,13 +18,13 @@
     "static/media/logo-typescript.svg": "/portfolio/static/media/logo-typescript.a4c19a324f72ed028c6c57b4e40a3b91.svg",
     "static/media/logo-javascript.svg": "/portfolio/static/media/logo-javascript.c4fcc6f1899db894e7322265ddcff36c.svg",
     "index.html": "/portfolio/index.html",
-    "static/media/carousel-dot.svg": "/portfolio/static/media/carousel-dot.de6299a0e156e8904c46250c8f28b783.svg",
-    "main.9c9c5476.css.map": "/portfolio/static/css/main.9c9c5476.css.map",
-    "main.c7b00785.js.map": "/portfolio/static/js/main.c7b00785.js.map",
+    "static/media/carousel-dot.svg": "/portfolio/static/media/carousel-dot.8786cdab316732dbf30fc2989d1bca82.svg",
+    "main.6e2f76f1.css.map": "/portfolio/static/css/main.6e2f76f1.css.map",
+    "main.426e2104.js.map": "/portfolio/static/js/main.426e2104.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c9c5476.css",
-    "static/js/main.c7b00785.js"
+    "static/css/main.6e2f76f1.css",
+    "static/js/main.426e2104.js"
   ]
 }
