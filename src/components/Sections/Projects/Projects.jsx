@@ -4,16 +4,20 @@ import edu from '../../../images/edu.jpg';
 import i25kia from '../../../images/i25kia.png';
 import crocheniacs from '../../../images/crocheniacs.png';
 import leftArrow from '../../../images/left-arrow.svg';
-import carouselDot from '../../../images/carousel-dot.svg';
+import { ReactComponent as CarouselDot } from '../../../images/carousel-dot.svg';
 import Project0 from './Project0';
 import Project1 from './Project1';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Project2 from './Project2';
 import Project3 from './Project3';
 import downArrow from '../../../images/down-arrow.svg';
+import { changeColor } from '../../../utils/colors';
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
   const [project, setProject] = useState(0);
+  const { i18n } = useTranslation();
+  const [dotColor, setDotColor] = useState('#D9D9D9');
 
   const projectSelection = () => {
     switch (project) {
@@ -50,6 +54,23 @@ const Projects = () => {
     setProject(newProject);
   };
 
+  const handleColors = (color) => {
+    switch (color) {
+      case 'green':
+        return '#59be99';
+      case 'red':
+        return 'rgba(246, 29, 29, 0.8)';
+      case 'blue':
+        return '#5450f9';
+      default:
+        break;
+    }
+  };
+
+  useEffect(() => {
+    setDotColor(handleColors(changeColor()));
+  }, [i18n.language]);
+
   return (
     <>
       <div className={styles['container']}>
@@ -70,25 +91,21 @@ const Projects = () => {
                 onClick={() => handleClick(-1)}
                 alt="right arrow"
               />
-              <img
-                src={carouselDot}
+              <CarouselDot
+                fill={project === 0 ? dotColor : '#D9D9D9'}
                 className={styles['carousel-dot']}
-                alt="dot"
               />
-              <img
-                src={carouselDot}
+              <CarouselDot
+                fill={project === 1 ? dotColor : '#D9D9D9'}
                 className={styles['carousel-dot']}
-                alt="dot"
               />
-              <img
-                src={carouselDot}
+              <CarouselDot
+                fill={project === 2 ? dotColor : '#D9D9D9'}
                 className={styles['carousel-dot']}
-                alt="dot"
               />
-              <img
-                src={carouselDot}
+              <CarouselDot
+                fill={project === 3 ? dotColor : '#D9D9D9'}
                 className={styles['carousel-dot']}
-                alt="dot"
               />
               <img
                 src={leftArrow}

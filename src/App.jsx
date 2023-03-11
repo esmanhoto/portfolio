@@ -8,7 +8,7 @@ import { Element } from 'react-scroll';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
 import React, { useState } from 'react';
-// import 'js-circle-progress/dist/circle-progress.min.css'; // add this line
+import BlurCircles from './components/blurCircles/BlurCircles';
 
 function App() {
   const [matchPercentage, setMatchPercentage] = useState(0);
@@ -17,6 +17,7 @@ function App() {
     <I18nextProvider i18n={i18n}>
       <div className="App">
         <Navbar />
+        <BlurCircles />
         <HeroSection />
         <Element name="skills">
           <Skills setMatchPercentage={(number) => setMatchPercentage(number)} />
