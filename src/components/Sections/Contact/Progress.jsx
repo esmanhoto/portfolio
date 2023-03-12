@@ -2,14 +2,12 @@ import {
   CircularProgressbarWithChildren,
   buildStyles,
 } from 'react-circular-progressbar';
-import RadialSeparators from './RadialSeparators';
+import RadialSeparators from './RadialSeparators.js';
 import 'react-circular-progressbar/dist/styles.css';
 import styles from './Progress.module.css';
 import { changeColor } from '../../../utils/colors';
 
 const Progress = (props) => {
-  console.log('percentage on progress', props.matchPercentage);
-
   const percentage = props.matchPercentage;
 
   const handleColor = () => {

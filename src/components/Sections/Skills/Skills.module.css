@@ -134,3 +134,51 @@
   justify-content: center;
   margin: 120px 0;
 }
+
+.canvas {
+  width: 500px;
+  height: 500px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .content {
+    gap: 15px;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .option {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+
+  .new-checkbox {
+    top: 4px;
+  }
+
+  .canvas {
+    width: 100%;
+    height: auto;
+  }
+
+  .down-arrow {
+    margin: 30px 0;
+  }
+
+  .skillcloud {
+    margin-top: 30px;
+  }
+}

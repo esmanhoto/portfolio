@@ -44,3 +44,34 @@
   justify-content: center;
   margin: 120px 0;
 }
+
+@media (max-width: 900px) {
+  .container {
+    margin-top: 25px;
+  }
+
+  .header-text {
+    font-size: 24px;
+  }
+
+  .subheader {
+    margin-bottom: 25px;
+  }
+
+  .subheader-text {
+    font-size: 16px;
+  }
+
+  .text-and-cta {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .text-and-cta a {
+    align-self: flex-end;
+  }
+
+  .down-arrow {
+    margin: 30px 0;
+  }
+}

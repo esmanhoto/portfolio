@@ -20,7 +20,9 @@ const Project0 = () => {
       </div>
       <div className={styles.text}>{t('project0.additional')}</div>
       <div className={styles['button-schedule']}>
-        <Button text={t('button.schedule')} />
+        <a href="https://calendly.com/eduardo_esmanhoto/interview">
+          <Button text={t('button.schedule')} />
+        </a>
       </div>
     </div>
   );

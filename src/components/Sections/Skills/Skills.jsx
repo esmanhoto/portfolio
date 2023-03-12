@@ -161,7 +161,6 @@ const Skills = (props) => {
       listOfSkills
     );
     props.setMatchPercentage(result);
-    console.log('result', result);
   }, [selectedSkills]);
 
   const backgroundColorClass = changeBackgroundColor();
@@ -210,7 +209,11 @@ const Skills = (props) => {
         </div>
       </div>
       <div className={styles['down-arrow']}>
-        <img src={downArrow} className={styles['down-arrow-icon']} />
+        <img
+          src={downArrow}
+          className={styles['down-arrow-icon']}
+          alt="down arrows"
+        />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import i18n from 'i18next';
-import { changeColor } from '../../../utils/colors';
+import styles from './Skills.module.css';
 
 const skills = [
   'Javascript',
@@ -40,10 +40,7 @@ const SkillCloud = () => {
     const TagCanvas = window.TagCanvas;
     try {
       TagCanvas.Start('myCanvas', 'tags', {
-        // textColour: '#08fdd8',
-        // textColour: changeColor(),
         textColour: textColorChange(),
-        // outlineColour: "#ff00ff",
         reverse: false,
         depth: 0.5,
         maxSpeed: 0.1,
@@ -58,23 +55,23 @@ const SkillCloud = () => {
   return (
     <>
       <div id="myCanvasContainer">
-        <canvas width="500" height="500" id="myCanvas">
-          <p>
-            Anything in here will be replaced on browsers that do not support
-            the canvas element
-          </p>
-        </canvas>
-      </div>
-      <div id="tags">
-        <ul>
-          {skills.map((skill, index) => {
-            return (
-              <li key={index}>
-                <a href="/">{skill}</a>
-              </li>
-            );
-          })}
-        </ul>
+        <canvas
+          id="myCanvas"
+          width="500px"
+          height="500px"
+          className={styles.canvas}
+        />
+        <div id="tags">
+          <ul>
+            {skills.map((skill, index) => {
+              return (
+                <li key={index}>
+                  <a href="/">{skill}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </>
   );

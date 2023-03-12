@@ -24,9 +24,9 @@ const Tools = (props) => {
     <div>
       <div className={styles.title}>{t('tools')}</div>
       <div className={styles.icons}>
-        {props.stacks.map((stack) => {
+        {props.stacks.map((stack, index) => {
           const src = icons[stack];
-          return <img src={src} alt={stack} />;
+          return <img src={src} alt={stack} key={index} />;
         })}
       </div>
     </div>

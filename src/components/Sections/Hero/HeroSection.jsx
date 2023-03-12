@@ -35,10 +35,16 @@ const HeroSection = () => {
           </span>
           {t('hero.additional.partTwo')}
         </div>
-        <Button text={t('button.scheduleMeeting')} />
+        <a href="https://calendly.com/eduardo_esmanhoto/interview">
+          <Button text={t('button.scheduleMeeting')} />
+        </a>
       </div>
       <div className={styles['down-arrow']}>
-        <img src={downArrow} className={styles['down-arrow-icon']} />
+        <img
+          src={downArrow}
+          className={styles['down-arrow-icon']}
+          alt="down arrows"
+        />
       </div>
     </div>
   );

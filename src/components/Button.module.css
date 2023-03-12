@@ -12,3 +12,12 @@
   white-space: nowrap;
   cursor: pointer;
 }
+
+@media (max-width: 900px) {
+  .button-schedule {
+    font-size: 18px;
+    width: 200px;
+    padding: 20px;
+    white-space: normal;
+  }
+}

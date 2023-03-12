@@ -22,16 +22,19 @@ const Navbar = () => {
           src={usa}
           className={styles.flag}
           onClick={() => changeLanguage('en')}
+          alt="american flag"
         />
         <img
           src={finland}
           className={styles.flag}
           onClick={() => changeLanguage('fi')}
+          alt="finnish flag"
         />
         <img
           src={brazil}
           className={styles.flag}
           onClick={() => changeLanguage('pt')}
+          alt="brazilian flag"
         />
       </div>
       <ul className={styles.list}>

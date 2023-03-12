@@ -118,7 +118,11 @@ const Projects = () => {
         </div>
       </div>
       <div className={styles['down-arrow']}>
-        <img src={downArrow} className={styles['down-arrow-icon']} />
+        <img
+          src={downArrow}
+          className={styles['down-arrow-icon']}
+          alt="down arrows"
+        />
       </div>
     </>
   );
